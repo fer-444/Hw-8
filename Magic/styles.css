@@ -1,0 +1,81 @@
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-family: "Bebas Neue", cursive;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -30px;
+  color: black;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+.lil {
+  color: rgb(33, 33, 33);
+}
+.lil:hover {
+  text-decoration: none;
+}
+.watch {
+  margin-bottom: 20px;
+}
+#icon {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+#temp {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.application {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.weather-forecast {
+  margin-top: 30px;
+  text-align: center;
+}
+.weather-forecast-day {
+  opacity: 0.6;
+  font-size: 16px;
+}
+.min-temperature {
+  opacity: 0.5;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
